@@ -142,7 +142,11 @@
     
     </div>
    
-
+    <div class="social-footer">
+        <a href="https://www.github.com/tiagoeuzebiocordeiro">Github</a>
+        <br>
+        <a href="https://github.com/tiagoeuzebiocordeiro/crud-spring">Exemplo de CRUD com Spring Boot</a>
+    </div>
    
     <script src="/js/jquery/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
