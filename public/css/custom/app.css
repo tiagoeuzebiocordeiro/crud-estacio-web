@@ -1,0 +1,16 @@
+.btn-warning {
+    color: white;
+}
+
+#logout {
+    float: right !important;
+}
+
+body {
+    background-color: rgb(37, 35, 35);
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
