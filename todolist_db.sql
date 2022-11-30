@@ -1,11 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Tempo de geração: 20-Jun-2022 às 19:52
--- Versão do servidor: 10.4.24-MariaDB
--- versão do PHP: 8.1.6
+-- database
+-- alteracao 30/11 16:14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -100,7 +94,6 @@ CREATE TABLE `task_list` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `deadline` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -109,9 +102,9 @@ CREATE TABLE `task_list` (
 -- Extraindo dados da tabela `task_list`
 --
 
-INSERT INTO `task_list` (`id`, `title`, `description`, `deadline`, `created_at`, `updated_at`) VALUES
-(1, 'Study ReactJS', 'Study the JS Framework React', '2022-06-20 18:00:00', NULL, '2022-06-20 20:44:38'),
-(2, 'Pagar boleto da faculdade', 'Ir à lotérica para pagar o boleto', '2022-06-20 17:50:00', '2022-06-20 20:33:26', '2022-06-20 20:49:33');
+INSERT INTO `task_list` (`id`, `title`, `description`, `created_at`, `updated_at`) VALUES
+(1, 'Studyteste', 'Study reactalteracao', NULL, '2022-06-20 20:44:38'),
+(2, 'Pagar boleto da faculdade', 'Ir à lotérica para pagar o boleto', '2022-06-20 20:33:26', '2022-06-20 20:49:33');
 
 -- --------------------------------------------------------
 
